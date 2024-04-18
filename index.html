@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Todo-List</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body style="background-image: url(bg.jpg);background-size: cover;background-repeat: no-repeat;">
+        <main style="text-align: center;">
+            <div class="heading" style="display: flex;justify-content: center;">
+                <h1 class="white" >Todo-</h1><h1 class="change">List</h1>
+            </div>
+            <div class="sub-heading" style="display: flex;justify-content: center;">
+                <h3 class="white">You can enter your </h3><h3 class="change">&ThickSpace;Task&ThickSpace;</h3><h3 class="white"> Below</h3>
+            </div>
+            <form id="todo-input"style="text-align: center;">
+                <input name="input-box" type="text" id="input-box" class="white" placeholder="Enter task" maxlength="180"/>
+                <button name="submit" class="button" id="submit" >Submit</button>
+            </form>
+            <div id="todo-items"></div>
+        </main>
+        <script src="script.js"></script>
+        <footer id="base">
+            <p>Copyright &copy; &ThickSpace; Todo-List Developed By <a href="https://www.linkedin.com/in/joydeep-hans-65870928a/" target="_blank">Joydeep Hans</a></p>
+        </footer>
+    </body>
+    
+</html>

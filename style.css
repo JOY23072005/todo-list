@@ -1,0 +1,117 @@
+html{
+    min-height: 100%;
+}
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading{
+    margin-top: 10%;   
+}
+.sub-heading{
+    padding: 1%;
+}
+.change{
+    color: dodgerblue;
+}
+.white{
+    color:white;
+}
+#input-box{
+    height:30px;
+    width:300px;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid dodgerblue;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: larger;
+}
+#todo-input{
+    margin: 1% 0;
+}
+.button {
+    font-size: larger;
+    height: 50px;
+    width:100px;
+    padding: 10px;
+    color: green;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid green;
+    border-radius: 8px;
+    /* position: fixed;
+    right: 40%; */
+  }
+#submit:hover{
+    background-color: green;
+    color:white;
+    cursor: pointer;
+}
+.del {
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0);
+    font-size: medium;
+    height: 30px;
+    width: 80px;
+    /* display: none; */
+    color: red;
+    border: 1px solid red;
+    position: absolute;
+    right:2%;
+    top:20%;
+}
+.del:hover{
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}
+.todo-box{
+    color:white;
+    border: 2px solid white;
+    border-radius: 8px;
+    height:auto;
+    width:60%;
+    margin: 2% 20%;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    /* display:none; */
+}
+.todos{
+    padding: 1%;
+    padding-right: 20%;
+}
+.check{
+    border: 2px solid green;
+    border-radius: 50%;
+    margin-top: 0.8vw;
+    height:10px;
+    width: 10px;
+    cursor: pointer;
+}
+.checked{
+    border: 2px solid green;
+    background-color:cyan;
+    /* padding: 1%; */
+    border-radius: 50%;
+    margin-top: 0.8vw;
+    height:10px;
+    width: 10px;
+    cursor: pointer;
+}
+#base{
+    font-size: 1.2rem;
+    color:white;
+    text-align: center;
+}
+#base a{
+    color:white;
+    font-weight:bolder;
+    text-decoration: none;
+}
+#base a:hover{
+    text-decoration: underline;
+}
+#todo-items{
+    margin-bottom: 10%;
+}
